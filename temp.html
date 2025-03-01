@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.product {
+    display: block;
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;  /* Removes link underline */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-info .price {
+    font-size: 16px;
+    color: green;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slightly enlarge the product on hover */
+}
+
+    </style>
+</head>
+<body>
+
+</body>
+</html>
