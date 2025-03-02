@@ -4,8 +4,7 @@ body {
  
     
 }
-
-div {
+.divmain {
     border: 2px solid black;
     box-shadow: 8px 5px 30px;
     border-radius: 35px;
